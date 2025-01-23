@@ -1,0 +1,49 @@
+/* first part  */
+h3:first-of-type {
+    color: pink;
+}
+.yellow {
+    color: yellow
+ }
+#greycol {
+    color: grey
+}
+p:only-child {
+    color: red;
+}
+p:nth-child(7) {
+    color: green;
+}
+
+/* second part */
+
+.hover:hover {
+    color: aqua;
+}
+.link:link {
+    background-color: rgb(0, 208, 255);
+}
+.visited:visited {
+    color: rgb(255, 208, 0);
+}
+.focus:focus {
+    color: rgb(255, 0, 144);
+}
+:not([href="#"]) {
+    color: rgb(0, 255, 98);
+}
+li:only-child {
+    font-size: 75px;
+}
+li:last-child {
+    font-size: 50px !important;
+}
+li:nth-child(3n) {
+    font-size: 35px !important;
+}
+li:nth-child(n+2) {
+    font-size: 20px
+}
+li:nth-child(odd) {
+    font-size: 10px;
+}
