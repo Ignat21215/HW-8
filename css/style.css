@@ -32,8 +32,8 @@ p:nth-child(7) {
 a:not([href="#"]) {
     color: rgb(0, 255, 98);
 }
-li:only-child {
-    font-size: 75px;
+li:only-child(even) {
+    font-size: 70px;
 }
 li:last-child {
     font-size: 50px !important;
